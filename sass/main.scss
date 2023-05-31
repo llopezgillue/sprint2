@@ -1,0 +1,259 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+$primary: #5265e0;
+$secondary: #fa5959;
+
+.color-text {
+  color: rgb(107, 105, 105);
+}
+
+
+.color-button {
+
+  color: white
+}
+
+.nav-tabs .nav-link {
+  position: relative;
+}
+
+.nav-tabs .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: red;
+  visibility: hidden;
+  transition: visibility 0s linear 0.2s;
+}
+
+.nav-tabs .nav-link:hover::after {
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+.color-texto {
+
+  color: black
+}
+
+.card-img-top {
+  width: 45%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.color-texto-acordeon {
+
+  color: rgb(28, 28, 28)
+}
+
+.background {
+
+  background-color: #5265e0;
+  padding: 20px;
+
+}
+
+.buttonNav {
+
+  background-color: #fa5959;
+
+  color: white;
+
+  border-radius: 5px;
+
+  border: none;
+
+  width: 100px;
+
+  height: 40px;
+
+}
+
+.background2 {
+
+  background-color: rgb(1, 1, 51);
+}
+
+.colorTextoAcordeon {
+
+  color: rgb(200, 7, 7)
+}
+
+
+.tarjetaCrhome {
+
+  margin-right: 10px;
+
+
+}
+
+.tarjetaFirefox {
+
+  margin-right: 10px;
+
+  margin-left: 10px;
+
+  margin-top: 20px;
+
+}
+
+.tarjetaOpera {
+
+  margin-top: 50px;
+
+  margin-left: 10px;
+
+}
+
+
+.rectangle {
+  height: 400px;
+  background: $primary;
+  border-radius: 250px 0 0 250px;
+  position: absolute;
+  z-index: -1;
+  margin-top: 5em;
+  margin-left: 10rem;
+}
+
+.rectangle2 {
+  height: 350px;
+  background: $primary;
+  border-radius: 0 250px 250px 0;
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  margin-top: 5em;
+  margin-right: 10rem;
+
+}
+
+
+@media (max-width: 575.98px) {
+  .rectangle {
+      height: 250px;
+  }
+
+  .rectangle2 {
+      height: 250px;
+  }
+}
+
+
+
+@media (min-width: 576px) { 
+  .rectangle {
+      height: 275px;
+  }
+
+  .rectangle2 {
+      height: 275px;
+  }
+}
+
+
+@media (min-width: 768px) { 
+  .rectangle {
+      height: 200px;
+  }
+
+  .rectangle2 {
+      height: 200px;
+  }
+}
+
+
+@media (min-width: 992px) { 
+  .rectangle {
+      height: 290px;
+  }
+
+  .rectangle2 {
+      height: 290px;
+  }
+}
+
+
+@media (min-width: 1200px) { 
+  .rectangle {
+      height: 325px;
+  }
+
+  .rectangle2 {
+      height: 325px;
+  }
+}
+.blueButtons{
+
+  background-color: $primary;
+  border: 1px solid $primary;
+}
+
+.blueButtons:hover{
+
+  background-color: #fff;
+  color: $primary;
+  border: 1px solid $primary;
+
+}
+
+.redButtons{
+
+  background-color: $secondary;
+  border: 1px solid $secondary;
+
+}
+
+.redButtons:hover{
+
+  background-color: #fff;
+  color: $secondary;
+  border: 1px solid $secondary;
+}
+
+.greyButtons {
+
+  background-color: #b5afafd0;
+  border: 1px solid #b5afafd0;
+
+}
+
+.greyButtons:hover{
+
+  background-color: #fff;
+  color: grey;
+  border: 1px solid grey;
+
+}
+
+.navButtonsTop{
+
+  color: black;
+
+}
+
+.navButtonsTop:hover{
+
+  color: $secondary;
+
+}
+
+.navButtonsBottom{
+
+  color: white;
+
+}
+
+.navButtonsBottom:hover{
+
+  color: $secondary;
+
+}
+
+
+
