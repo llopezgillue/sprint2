@@ -117,8 +117,10 @@ $secondary: #fa5959;
   border-radius: 250px 0 0 250px;
   position: absolute;
   z-index: -1;
-  margin-top: 5em;
-  margin-left: 10rem;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  width: 600px;
+  
 }
 
 .rectangle2 {
@@ -136,11 +138,13 @@ $secondary: #fa5959;
 
 @media (max-width: 575.98px) {
   .rectangle {
-      height: 250px;
+      height: 230px;
+      width: 370px;
   }
 
   .rectangle2 {
-      height: 250px;
+      height: 230px;
+      width: 370px;
   }
 }
 

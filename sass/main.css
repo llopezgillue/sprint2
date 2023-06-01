@@ -10905,8 +10905,9 @@ textarea.form-control-lg {
   border-radius: 250px 0 0 250px;
   position: absolute;
   z-index: -1;
-  margin-top: 5em;
-  margin-left: 10rem;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  width: 600px;
 }
 
 .rectangle2 {
@@ -10922,10 +10923,12 @@ textarea.form-control-lg {
 
 @media (max-width: 575.98px) {
   .rectangle {
-    height: 250px;
+    height: 230px;
+    width: 370px;
   }
   .rectangle2 {
-    height: 250px;
+    height: 230px;
+    width: 370px;
   }
 }
 @media (min-width: 576px) {
